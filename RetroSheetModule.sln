@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetroSheetModule", "RetroSheetModule.csproj", "{BE4589F6-2FC6-441C-87A0-0F701B7E643A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE4589F6-2FC6-441C-87A0-0F701B7E643A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE4589F6-2FC6-441C-87A0-0F701B7E643A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE4589F6-2FC6-441C-87A0-0F701B7E643A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE4589F6-2FC6-441C-87A0-0F701B7E643A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFF9607A-6E38-4925-9E43-0E0E3CC218AA}
+	EndGlobalSection
+EndGlobal
