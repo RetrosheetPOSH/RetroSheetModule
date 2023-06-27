@@ -8,7 +8,7 @@ using RetroSheet.V2.Models;
 
 namespace RetroSheetModule.Cmdlets.Event
 {
-    [Cmdlet(VerbsCommon.New, "Event", HelpUri = "https://github.com/RetroSheetPOSH/RetroSheetModule/blob/main/Docs/New-Event.md#new-event")]
+    [Cmdlet(VerbsCommon.New, "Event", HelpUri = "https://github.com/RetroSheetPOSH/RetroSheetModule/blob/main/Docs/New-RsEvent.md#new-rsevent")]
     [OutputType("RetroSheet.V2.Models.Event")]
     [CmdletBinding(PositionalBinding = true)]
     public class NewEvent : PSCmdlet

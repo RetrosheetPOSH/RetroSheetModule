@@ -8,7 +8,7 @@ using RetroSheet.V2.Models;
 
 namespace RetroSheetModule.Cmdlets.Data
 {
-    [Cmdlet(VerbsCommon.New, "Data", HelpUri = "https://github.com/RetroSheetPOSH/RetroSheetModule/blob/main/Docs/New-Data.md#new-data")]
+    [Cmdlet(VerbsCommon.New, "Data", HelpUri = "https://github.com/RetroSheetPOSH/RetroSheetModule/blob/main/Docs/New-RsData.md#new-rsdata")]
     [OutputType("RetroSheet.V2.Models.Datum")]
     [CmdletBinding(PositionalBinding = true)]
     public class NewData : PSCmdlet

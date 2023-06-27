@@ -8,7 +8,7 @@ using RetroSheet.V2.Models;
 
 namespace RetroSheetModule.Cmdlets.Weather
 {
-    [Cmdlet(VerbsCommon.New, "Weather", HelpUri = "https://github.com/RetroSheetPOSH/RetroSheetModule/blob/main/Docs/New-Weather.md#new-weather")]
+    [Cmdlet(VerbsCommon.New, "Weather", HelpUri = "https://github.com/RetroSheetPOSH/RetroSheetModule/blob/main/Docs/New-RsWeather.md#new-rsweather")]
     [OutputType("RetroSheet.V2.Models.Umpire")]
     [CmdletBinding(PositionalBinding = true)]
     public class NewWeather : PSCmdlet

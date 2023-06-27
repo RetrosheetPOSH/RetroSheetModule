@@ -8,7 +8,7 @@ using RetroSheet.V2.Models;
 
 namespace RetroSheetModule.Cmdlets.Sub
 {
-    [Cmdlet(VerbsCommon.New, "Sub", HelpUri = "https://github.com/RetroSheetPOSH/RetroSheetModule/blob/main/Docs/New-Sub.md#new-sub")]
+    [Cmdlet(VerbsCommon.New, "Sub", HelpUri = "https://github.com/RetroSheetPOSH/RetroSheetModule/blob/main/Docs/New-RsSub.md#new-rssub")]
     [OutputType("RetroSheet.V2.Models.Sub")]
     [CmdletBinding(PositionalBinding = true)]
     public class NewSub : PSCmdlet

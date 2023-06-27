@@ -8,7 +8,7 @@ using RetroSheet.V2.Models;
 
 namespace RetroSheetModule.Cmdlets.Play
 {
-    [Cmdlet(VerbsCommon.New, "Play", HelpUri = "https://github.com/RetroSheetPOSH/RetroSheetModule/blob/main/Docs/New-Play.md#new-play")]
+    [Cmdlet(VerbsCommon.New, "Play", HelpUri = "https://github.com/RetroSheetPOSH/RetroSheetModule/blob/main/Docs/New-RsPlay.md#new-rsplay")]
     [OutputType("RetroSheet.V2.Models.Play")]
     [CmdletBinding(PositionalBinding = true)]
     public class NewPlay : PSCmdlet

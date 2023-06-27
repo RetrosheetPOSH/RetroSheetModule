@@ -8,7 +8,7 @@ using RetroSheet.V2.Models;
 
 namespace RetroSheetModule.Cmdlets.Umpire
 {
-    [Cmdlet(VerbsCommon.New, "Umpire", HelpUri = "https://github.com/RetroSheetPOSH/RetroSheetModule/blob/main/Docs/New-Umpire.md#new-umpire")]
+    [Cmdlet(VerbsCommon.New, "Umpire", HelpUri = "https://github.com/RetroSheetPOSH/RetroSheetModule/blob/main/Docs/New-RsUmpire.md#new-rsumpire")]
     [OutputType("RetroSheet.V2.Models.Umpire")]
     [CmdletBinding(PositionalBinding = true)]
     public class NewUmpire : PSCmdlet

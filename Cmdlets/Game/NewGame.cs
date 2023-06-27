@@ -8,7 +8,7 @@ using RetroSheet.V2.Models;
 
 namespace RetroSheetModule.Cmdlets.Game
 {
-    [Cmdlet(VerbsCommon.New, "Game", HelpUri = "https://github.com/RetroSheetPOSH/RetroSheetModule/blob/main/Docs/New-Game.md#new-game")]
+    [Cmdlet(VerbsCommon.New, "Game", HelpUri = "https://github.com/RetroSheetPOSH/RetroSheetModule/blob/main/Docs/New-RsGame.md#new-rsgame")]
     [OutputType("RetroSheet.V2.Models.Game")]
     [CmdletBinding(PositionalBinding = true)]
     public class NewGame : PSCmdlet

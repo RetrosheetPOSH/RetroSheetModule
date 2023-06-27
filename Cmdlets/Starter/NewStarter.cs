@@ -8,7 +8,7 @@ using RetroSheet.V2.Models;
 
 namespace RetroSheetModule.Cmdlets.Starter
 {
-    [Cmdlet(VerbsCommon.New, "Starter", HelpUri = "https://github.com/RetroSheetPOSH/RetroSheetModule/blob/main/Docs/New-Starter.md#new-starter")]
+    [Cmdlet(VerbsCommon.New, "Starter", HelpUri = "https://github.com/RetroSheetPOSH/RetroSheetModule/blob/main/Docs/New-RsStarter.md#new-rsstarter")]
     [OutputType("RetroSheet.V2.Models.Starter")]
     [CmdletBinding(PositionalBinding = true)]
     public class NewStarter : PSCmdlet
