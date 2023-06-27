@@ -12,7 +12,7 @@ This module will allow you to work with [RetroSheet data](https://www.retrosheet
 
 ## RetroSheetModule Cmdlets
 ### [New-RsData](New-RsData.md)
-{{ Fill in the Description }}
+This cmdlet creates a new Data
 
 ### [New-RsEvent](New-RsEvent.md)
 This cmdlet creates a new Event
