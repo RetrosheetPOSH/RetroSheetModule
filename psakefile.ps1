@@ -81,7 +81,7 @@ Task default -depends LocalUse
 Task LocalUse -Description "Setup for local use and testing" -depends Clean, BuildProject, CopyModuleFiles, BuildManifest
 
 Task Build -depends LocalUse, PesterTest
-Task Package -depends CreateExternalHelp, CreateCabFile, UpdateReadme
+Task Package -depends CreateHelp, CreateExternalHelp, CreateCabFile, UpdateReadme
 Task Deploy -depends CheckBranch, ReleaseNotes, PublishModule, NewTaggedRelease, Post2Discord
 
 Task Clean -depends CleanProject {
@@ -158,6 +158,12 @@ Task BuildManifest -Description "Compile the Module Manifest" -depends GetRetroS
 Task CopyModuleFiles -Description "Copy files for the module" -Action {
  Copy-Item "$($PSScriptRoot)\bin\Release\$($script:DotnetVersion)\*.dll" $script:Destination -Force
  Copy-Item "$($PSScriptRoot)\$($script:ModuleName).psd1" $script:Destination -Force
+}
+
+Task CreateHelp -Description "Create help files" -Action {
+ Import-Module -Name "$($script:Output)\$($script:ModuleName)" -Scope Global -force;
+ New-MarkdownHelp -Module $script:ModuleName -AlphabeticParamsOrder -UseFullTypeName -WithModulePage -OutputFolder $script:Docs -ErrorAction SilentlyContinue
+ Update-MarkdownHelp -Path $script:Docs -AlphabeticParamsOrder -UseFullTypeName
 }
 
 Task CreateExternalHelp -Description "Create external help file" -Action {
